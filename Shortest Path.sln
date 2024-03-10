@@ -5,7 +5,10 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shortest Path", "Shortest Path\Shortest Path.csproj", "{B655086F-A0F7-48A0-85B0-87A481FC5545}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortestPath.test", "..\ShortestPath.test\ShortestPath.test\ShortestPath.test.csproj", "{C136856F-F2D9-47CD-B063-36CBC86927D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortestPath.test", "ShortestPath.test\ShortestPath.test\ShortestPath.test.csproj", "{3EF064B5-2463-4899-80C3-7549C19904FC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B655086F-A0F7-48A0-85B0-87A481FC5545} = {B655086F-A0F7-48A0-85B0-87A481FC5545}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +20,10 @@ Global
 		{B655086F-A0F7-48A0-85B0-87A481FC5545}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B655086F-A0F7-48A0-85B0-87A481FC5545}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B655086F-A0F7-48A0-85B0-87A481FC5545}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C136856F-F2D9-47CD-B063-36CBC86927D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C136856F-F2D9-47CD-B063-36CBC86927D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C136856F-F2D9-47CD-B063-36CBC86927D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C136856F-F2D9-47CD-B063-36CBC86927D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF064B5-2463-4899-80C3-7549C19904FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF064B5-2463-4899-80C3-7549C19904FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF064B5-2463-4899-80C3-7549C19904FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF064B5-2463-4899-80C3-7549C19904FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
